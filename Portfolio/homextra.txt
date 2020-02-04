@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Home Authentication</title>
+<link rel="icon" href="favicon.ico"/>
+</head>
+<body background="backg2.png">
+<p id="demo"></p>
+<script type="text/javascript">
+function changeThis(){
+	var formInput = document.getElementById('theInput').value;
+	document.getElementById('newText').innerHTML = "Welcome " + formInput +"!";
+}
+</script>
+<marquee direction="right"><img src="right.gif"></marquee>
+<br>
+<br>
+<center><p><h1><span id='newText'>Authentication..</span> </h1></p></center> 
+<center><input type='text' id='theInput' value='Type your name here' /></center><br>
+<center><input type='button' onclick='changeThis()' value='OK' /></center>
+<pre>                                                       <img src="graf.gif">            <a href="main.html"><img src="check.gif"></a><img src="hand.gif"></pre>
+<marquee><img src="left.gif"></marquee>
+</body>
+</html>

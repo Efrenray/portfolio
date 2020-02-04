@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Home Authentication</title>
+<link rel="icon" href="favicon.ico"/>
+</head>
+<body background="6431351_orig.gif">
+<p id="demo"></p>
+<script type="text/javascript">
+function changeThis(){
+	var formInput = document.getElementById('theInput').value;
+	document.getElementById('newText').innerHTML = "Welcome " + formInput +"!";
+}
+</script>
+
+<div class="image" id="top" style="left: 30%; top: 25%; position: absolute"> <img src="register1.png" alt="" /><h1>Authentication...</h1><br><h2><span id='newText'>Enter your name below.</span></h2><p><input type='text' id='theInput' value='' /></p>
+<pre><input type='button' onclick='changeThis()' value='OK' /></pre></div> 
+<style>
+.image {
+   position: absolute;
+}
+h1 {
+   position:absolute;
+   top: -5%;
+   left: 30%;
+}
+h2 {
+   position: absolute;
+   top: 15%;
+   left: 27%;
+
+}
+p {
+  position: absolute;
+  top: 35%;
+  left: 34%;
+}
+pre {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+</style>
+<div id="under" style="left: 47.5%; top: 60%; position: absolute"> <a href="main.html"><img src="check.gif"></a> </div>
